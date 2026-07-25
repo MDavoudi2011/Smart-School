@@ -1,0 +1,19 @@
+========= EXAMPLE USERS FOR TEST =========
+
+Username: "admin"
+Password: "admin"
+role: "admin"
+------------------------------------------
+Username: "teacher"
+Password: "teacher"
+role: "teacher"
+class: "803"
+------------------------------------------
+Username: "cleaner"
+Password: "cleaner"
+role: "service"
+
+
+========= DASHBOARD LINKS ================
+https://kibord-67.vercel.app
+https://bahonar3jhs.ir

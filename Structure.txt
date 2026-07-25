@@ -1,0 +1,52 @@
+Project/
+├── Database Schema.md                        # شمای کلی از جداول دیتابیس
+├── HOW TO TEST APPLICATION.txt               # آدرس دسترسی به داشبورد وب و اطلاعات کاربران نمونه
+├── Visit Deployed Application on Vercel.url  # لینک جایگزین داشبورد وب
+├── Visit Deployed Application.url            # لینک دسترسی به داشبورد وب
+│
+├── Application Screen-Shots/                 # پوشه تصاویر داشبورد وب
+│   ├── AdminPanel-Main.jpg                   # تصویر صفحه اصلی پنل مدیریت
+│   ├── AdminPanel-Tasks.jpg                  # تصویر بخش مدیریت وظایف مدیر
+│   ├── AdminPanel-Users.jpg                  # تصویر بخش مدیریت کاربران
+│   ├── Login.jpg                             # تصویر صفحه ورود به داشبورد
+│   ├── ServicePanel.jpg                      # تصویر پنل اختصاصی خدمات
+│   └── TeacherPanel.jpg                      # تصویر پنل اختصاصی معلمان
+│
+├── Application Source/                       # پوشه سورس‌کدهای داشبورد
+│   ├── index.html
+│   ├── package.json
+│   ├── tsconfig.json
+│   ├── vercel.json
+│   ├── vite.config.ts
+│   └── src/                                  # پوشه اصلی سورس کد
+│       ├── api.ts                            # توابع ارتباط با سرور دیتابیس
+│       ├── App.tsx                           # کامپوننت اصلی برنامه
+│       ├── index.css                         # استایل‌های سی‌اس‌اس
+│       ├── main.tsx                          # نقطه شروع اجرای برنامه
+│       ├── utils.ts                          # توابع کمکی
+│       ├── components/
+│       │   ├── AdminPanel.tsx                # کامپوننت پنل مدیر
+│       │   ├── Footer.tsx                    # فوتر در همه صفحات
+│       │   ├── ServicePanel.tsx              # کامپوننت پنل خدمات
+│       │   └── TeacherPanel.tsx              # کامپوننت پنل معلم
+│       ├── lib/
+│       │   └── supabase.ts                   # کلاینت اتصال به سوپابیس
+│       └── pages/
+│           ├── Dashboard.tsx                 # صفحه اصلی داشبورد
+│           ├── Login.tsx                     # صفحه ورود
+│           └── Redirect.tsx                  # بررسی سشن کاربر
+│
+└── Wokwi Source/                             # پوشه سورس‌کدهای سخت‌افزار
+    ├── actuators.h                           # عملگرها
+    ├── ai_core.h                             # الگوریتم پیش‌بینی دما
+    ├── auth.h                                # منطق احراز هویت
+    ├── config.h                              # فایل تنظیمات
+    ├── diagram.json                          # نقشه اتصالات مدار و قطعات
+    ├── display.h                             # توابع مدیریت مایشگر
+    ├── global_state.h                        # متغیر‌های مشترک و وضعیت سراسری
+    ├── libraries.txt                         # لیست کتابخانه‌های مورد نیاز
+    ├── network.h                             # توابع مدیریت و درخواست‌های شبکه
+    ├── sensors.h                             # توابع دریافت داده از سنسورها
+    ├── sketch.ino                            # فایل اجرایی اصلی
+    ├── sleep_manager.h                       # منطق خواب عمیق برد
+    ├── Wokwi Simulation Link.url             # لینک اجرای شبیه‌سازی پروژه
